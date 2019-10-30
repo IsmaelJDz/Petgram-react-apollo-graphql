@@ -1,6 +1,6 @@
 import React from "react";
 import reactDom from "react-dom";
+import { App } from "./App";
 
-const App = document.getElementById("app");
-reactDom.render(<h4>Seguimos con el curso avanzado</h4>, App);
-//EAqScZwTvdUM0ByjfJauy88v
+const root = document.getElementById("app");
+reactDom.render(<App />, root);
