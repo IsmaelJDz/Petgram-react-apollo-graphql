@@ -17,7 +17,6 @@ export const PhotoCard = ({ id, likes = 0, src = DEFAUL_IMAGE }) => {
       const observer = new window.IntersectionObserver(function(entries) {
         const { isIntersecting } = entries[0];
         if (isIntersecting) {
-          console.log("si");
           setShow(true);
           observer.disconnect();
         }
